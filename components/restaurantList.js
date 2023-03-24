@@ -49,7 +49,7 @@ if(searchQuery.length > 0){
         <CardImg
           top={true}
           style={{ height: 200 }}
-          src={`http://localhost:1337${res.image.url}`}
+          src={`http://3.87.94.48:1337/${res.image.url}`}
         />
         <CardBody>
           <CardText style={{ height: 50 }}>{res.description}</CardText>

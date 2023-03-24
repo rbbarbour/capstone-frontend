@@ -56,7 +56,7 @@ function DishesList({ restId, search }) {
           <CardImg
             top={true}
             style={{ height: 200 }}
-            src={`http://localhost:1337${dish.image.url}`}
+            src={`http://3.87.94.48:1337/${dish.image.url}`}
           />
           <CardBody>
             <CardText style={{ height: 50 }}>{dish.description}</CardText>
